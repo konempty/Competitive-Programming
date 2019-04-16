@@ -1,2 +1,2 @@
-# algorithm_study
+# Competitive Programming
 알고리즘 스터디
