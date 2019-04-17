@@ -34,11 +34,18 @@ Qualification Round
 - [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
 
 
+### SAMSUNG
+
+삼성 SW 역량 테스트
+- [경사로](./Samsung/경사로.cpp) (시뮬레이션)
+
+SCPC
+
 ### KAKAO
 
 KAKAO BLIND RECRUITMENT 1차
 - [2018/비밀 지도](./Kakao/비밀_지도.cpp)
-- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (퍼즐 블록)
+- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
 
 KAKAO Code Festival 예선
 
