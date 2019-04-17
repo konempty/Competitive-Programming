@@ -1,4 +1,4 @@
-﻿# 알고리즘 학습 내역
+# 알고리즘 학습 내역
 [백준 프로필](https://www.acmicpc.net/user/cupjoo)
 
 
@@ -34,14 +34,17 @@ Qualification Round
 - [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
 
 
-### KAKAO BLIND RECRUITMENT
+### KAKAO
 
-1차
+KAKAO BLIND RECRUITMENT 1차
 - [2018/비밀 지도](./Kakao/비밀_지도.cpp)
 - [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (퍼즐 블록)
 
-### NAVER CAMPUS HACKDAY
+KAKAO Code Festival 예선
 
+### NAVER
+
+NAVER CAMPUS HACKDAY
 - [2019/task1](./Naver/task1.cpp) (맵핑)
 - [2019/task2](./Naver/task2.cpp) (이진 트리)
 - [2019/task3](./Naver/task3.cpp) (DP)
@@ -60,6 +63,10 @@ Qualification Round
 - [자리배정](./기본유형/자리배정.cpp) (규칙 찾기)
 - [피보나치 수와 최대공약수](./기본유형/피보나치_수와_최대공약수.cpp) (피보나치 & 분할 정복)
 
+이진 탐색
+
+- [나무 자르기](./기본유형/나무_자르기.cpp)
+
 분할 정복
 
 - [Merge Sort](./기본유형/merge_sort.cpp)
@@ -76,6 +83,7 @@ Qualification Round
 - [포도주 시식](./기본유형/포도주_시식.cpp)
 - [ACM Craft](./기본유형/ACM_craft.cpp) (DFS)
 - [동전 1](./기본유형/동전_1.cpp)
+- [동전 2](./기본유형/동전_2.cpp)
 - [내리막길](./기본유형/내리막길.cpp) (DFS)
 
 탐욕법
