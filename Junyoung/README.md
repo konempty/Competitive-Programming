@@ -1,4 +1,4 @@
-﻿# 알고리즘 학습 내역
+# 알고리즘 학습 내역
 [백준 프로필](https://www.acmicpc.net/user/cupjoo)
 
 
