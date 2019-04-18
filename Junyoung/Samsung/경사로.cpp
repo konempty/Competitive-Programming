@@ -1,9 +1,10 @@
-// // https://www.acmicpc.net/problem/14890
+// https://www.acmicpc.net/problem/14890
 
 #include <cstdio>
 using namespace std;
 
 const int MAXN = 100 + 2;
+
 int main() {
 	int N, L;
     int map[2*MAXN][MAXN];
@@ -12,25 +13,20 @@ int main() {
     for (int i = 0; i < N; i++){
 		for (int j = 0; j < N; j++){
 			scanf("%d", &map[i][j]);
-		}
-	}
-	
-    for (int i = 0; i < N; i++){
-		for (int j = 0; j < N; j++){
-			map[i+N][j] = map[j][i];
+			map[j+N][i] = map[i][j]; // 가로 세로 변환
 		}
 	}
 	
     int cnt = 0;
-    for (int i = 0; i < 2*N; i++) {
-		int c = 1, j;
-		for (j = 0; j < N-1; j++) {
-			if (map[i][j] == map[i][j+1]) c++;
-			else if (map[i][j]+1 == map[i][j+1] && c >= L) c = 1;
-			else if (map[i][j]-1 == map[i][j+1] && c >= 0) c = -L+1;
+    for (int r = 0; r < 2*N; r++) {
+		int flat = 1, c;
+		for (c = 0; c < N-1; c++) {
+			if (map[r][c] == map[r][c+1]) flat++;
+			else if (map[r][c]+1 == map[r][c+1] && flat >= L) flat = 1;
+			else if (map[r][c]-1 == map[r][c+1] && flat >= 0) flat = -L+1;
 			else break;
 		}
-		if (j == N-1 && c >= 0) cnt++;
+		if (c == N-1 && flat >= 0) cnt++;
     }
     printf("%d\n", cnt);
 	
