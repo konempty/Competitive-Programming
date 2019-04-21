@@ -21,6 +21,7 @@
 - [2013/박스](./ACM-ICPC/박스.cpp)
 - [2013/패션왕 신해빈](./ACM-ICPC/패션왕_신해빈.cpp) (Map)
 - [2014/순열 사이클](./ACM-ICPC/순열_사이클.cpp) (DFS)
+- [2015/통나무 건너뛰기](./ACM-ICPC/통나무_건너뛰기.cpp)
 - [2016/로봇](./ACM-ICPC/로봇.cpp) (방향전환)
 
 세계 결승
@@ -34,11 +35,18 @@ Qualification Round
 - [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
 
 
+### SAMSUNG
+
+삼성 SW 역량 테스트
+- [경사로](./Samsung/경사로.cpp) (시뮬레이션)
+
+SCPC
+
 ### KAKAO
 
 KAKAO BLIND RECRUITMENT 1차
 - [2018/비밀 지도](./Kakao/비밀_지도.cpp)
-- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (퍼즐 블록)
+- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
 
 KAKAO Code Festival 예선
 
@@ -106,6 +114,11 @@ NAVER CAMPUS HACKDAY
 
 - [문자열 정렬](./기본유형/문자열_정렬.cpp)
 - [큰 수 A+B](./기본유형/큰_수_A+B.cpp) (큰 수 처리)
+
+구현
+- [수 이어 쓰기 2](./기본유형/수_이어_쓰기_2.cpp)
+- [수 이어 쓰기 3](./기본유형/수_이어_쓰기_3.cpp)
+
 
 최단 거리
 
