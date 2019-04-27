@@ -6,45 +6,25 @@
 using namespace std;
 
 const int MAXL = 1000000/2;
-vector <pair<int,int>> PT;
-
-int gcd(int a, int b){
-	int mod;
-    while ((mod = a%b) > 0) {
-        a = b;
-        b = mod;
-    }
-    return b;
-}
-
-bool cmp(pair<int,int> pt1, pair<int,int> pt2){
-	return pt1.first+pt1.second < pt2.first+pt2.second;
-}
+vector <int> PT;
 
 void init_PT(){
 	int L = MAXL;
-	for(int y = 1; ; y++){
-		int x = y+1;
-		int a = 2*x*y;
-		int b = x*x-y*y;
-		
-		if(a+b > MAXL)	break;
-		while(true){
-			a = 2*x*y;
-			b = x*x-y*y;
-			
+	for(int x = 2; x < 75; x++){
+		for(int y = 1; y < x; y++){
+			int a = 2*x*y;
+			int b = x*x-y*y;
 			if (a+b > MAXL)	break;
-			if (a > b)	swap(a,b);
-			int g = gcd(a,b);
-			PT.push_back({ a/g,b/g });
-			x++;
+			// 같은 길이에서 2개 이상의 피타고리안 트리플이 나올 수 없음
+			if (__gcd(a,b) == 1)	PT.push_back(a+b);
 		}
 	}
-	// 합동 제거
 	sort(PT.begin(), PT.end());
-	PT.erase(unique(PT.begin(), PT.end()), PT.end());
-	// L 크기 순으로 정렬
-	sort(PT.begin(), PT.end(), cmp);
+	
+	int len = PT.size();
+	for(int i = 1; i < len; i++) {
+		PT[i] += PT[i-1];
+	}
 }
 
 int main() {
@@ -54,15 +34,8 @@ int main() {
 	scanf("%d", &T);
 	for(int t = 0; t < T; t++){
 		int L;
-		scanf("%d", &L);
-		L /= 2;
-		
-		int sum = 0, i = 0;
-		while(true){
-			int l = PT[i].first + PT[i].second;
-			if((sum += l) > L)	break;
-			i++;
-		}
-		printf("%d\n", i);
+		scanf("%d", &L); L /= 2;
+		// 이진탐색 (upper)
+		printf("%d\n", (int)(upper_bound(PT.begin(), PT.end(), L)-PT.begin()));
 	}
 }
