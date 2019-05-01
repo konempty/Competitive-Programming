@@ -1,11 +1,12 @@
 #include <cstdio>
 #include <cstring>
-#include <algorithm>
 #include <string>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
 
-#define FOR(i,n) for(int i = 0; i < n; i++)
+#define FOR(i,s,n) for(int i = s; i < n; i++)
 #define ALL(x) (x).begin(), (x).end()
 
 typedef long long ll;
@@ -15,6 +16,7 @@ typedef struct NODE{
 	NODE* link;
 }node;
 
+const ll MOD = 1e9 + 7;
 const int MAXN = 10000+2;
 // 동 서 남 북
 const int dr[] = {0,0,-1,1};
@@ -23,5 +25,5 @@ const int dc[] = {1,-1,0,0};
 const int TURN[4][2] = {{3,2},{2,3},{0,1},{1,0}};
 
 pii operator + (const pii &a, const pii &b){	
-	return pii(a.first+b.first, a.second+b.second)
+	return pii(a.first+b.first, a.second+b.second);
 }
