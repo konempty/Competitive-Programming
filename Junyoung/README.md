@@ -46,6 +46,8 @@ Qualification Round
 삼성 SW 역량 테스트
 - [경사로](./Samsung/경사로.cpp) (시뮬레이션)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
+- [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
+- [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)
 
 SCPC
 
