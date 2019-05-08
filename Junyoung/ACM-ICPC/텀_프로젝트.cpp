@@ -11,7 +11,9 @@ vector <int> cycle_cnt;
 
 int dfs(int n, int first, int cnt){
 	if(cycle_cnt[n]){
+		// 이미 사이클이 있는 경우
 		if(start[n] != first)	return 0;
+		// 사이클이 처음 만들어지는 경우
 		else return cnt-cycle_cnt[n];
 	}
 	start[n] = first;
