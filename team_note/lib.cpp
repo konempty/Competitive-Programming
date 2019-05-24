@@ -16,6 +16,14 @@ typedef struct NODE{
 	NODE* link;
 }node;
 
+class pot {
+public:
+	int r, c;
+	pot(int _r, int _c) {
+		r = _r, c = _c;
+	}
+};
+
 const ll MOD = 1e9 + 7;
 const int MAXN = 10000+2;
 // 북 동 남 서
