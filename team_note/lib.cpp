@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <cstring>
 #include <string>
+#include <queue>
 #include <algorithm>
 #include <vector>
 using namespace std;
@@ -10,6 +11,7 @@ using namespace std;
 #define ALL(x) (x).begin(), (x).end()
 
 typedef long long ll;
+typedef priority_queue<int> pqi;
 typedef pair <int, int> pii;
 typedef struct NODE{
 	int data;

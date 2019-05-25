@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <cstring>
 #include <string>
+#include <queue>
 #include <algorithm>
 #include <vector>
 using namespace std;
