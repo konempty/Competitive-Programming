@@ -54,6 +54,7 @@ Qualification Round
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
 
 SCPC 1차 예선
+- [2017/괄호](./Samsung/괄호.cpp) (Stack)
 - [2018/버스 타기](./Samsung/버스_타기.cpp) (Greedy)
 - [2018/회문인 수의 합](./Samsung/회문인_수의_합.cpp) (브루트포스)
 
