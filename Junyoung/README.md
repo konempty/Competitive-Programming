@@ -48,8 +48,13 @@ Qualification Round
 - [퇴사](./Samsung/퇴사.cpp) (DP)
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
 - [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)
+- [2048 Easy](./Samsung/2048_Easy.cpp) (DFS & 회전)
+- [주사위 굴리기](./Samsung/주사위_굴리기.cpp) (방향전환)
+- [시험 감독](./Samsung/시험_감독.cpp)
+- [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
 
 SCPC 1차 예선
+- [2017/괄호](./Samsung/괄호.cpp) (Stack)
 - [2018/버스 타기](./Samsung/버스_타기.cpp) (Greedy)
 - [2018/회문인 수의 합](./Samsung/회문인_수의_합.cpp) (브루트포스)
 
