@@ -12,33 +12,28 @@ using namespace std;
 typedef long long ll;
 
 const int MAXN = 200000+2;
-const int MAXP = 1e9+2;
 int price[MAXN];
 
-void solve(){
+void solve(int t){
 	int N;
 	scanf("%d", &N);
-	FOR(n, 1, N+1)	scanf("%d", &price[n]);
-	price[0] = MAXP;	price[N+1] = -MAXP;
+	FOR(n, 0, N)	scanf("%d", &price[n]);
 	
 	int cnt = 0;
-	FOR(i, 1, N+1){
-		for(; i < N && price[i-1] > price[i]; i++);
+	FOR(i, 0, N){
+		for(; i < N && price[i] >= price[i+1]; i++);
+		if(i >= N-1)	break;
 		cnt++;
-		if(i == N)	break;
 		
-		for(; i < N && price[i-1] < price[i]; i++);
+		for(; i < N-1 && price[i] <= price[i+1]; i++);
 		cnt++;
 	}
-	printf("%d\n", cnt);
+	printf("Case #%d\n%d\n", t, cnt);
 }
 
 int main(){
 	int T;
 	scanf("%d ", &T);
-	FOR(t, 1, T+1){
-		printf("Case #%d\n", t);
-		solve();
-	}
+	FOR(t, 1, T+1)	solve(t);
 	return 0;
 }
