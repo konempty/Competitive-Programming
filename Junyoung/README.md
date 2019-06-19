@@ -49,6 +49,7 @@ Qualification Round
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
 - [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)
 - [2048 Easy](./Samsung/2048_Easy.cpp) (DFS & 회전)
+- [연구소](./Samsung/연구소.cpp) (DFS & 브루트 포스)
 - [주사위 굴리기](./Samsung/주사위_굴리기.cpp) (방향전환)
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)

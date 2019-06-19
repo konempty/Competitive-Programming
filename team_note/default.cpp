@@ -12,6 +12,7 @@ using namespace std;
 #define FORr(i,e,s) for(int i = e; i >= s; i--)
 #define ALL(x) (x).begin(), (x).end()
 typedef long long ll;
+typedef pair <int, int> pii;
 
 const int MAXN = 10000+2;
 
