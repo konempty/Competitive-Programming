@@ -1,9 +1,8 @@
-// 
+// https://www.acmicpc.net/problem/11375
 
 #include <cstdio>
 #include <cstring>
 #include <string>
-#include <queue>
 #include <algorithm>
 #include <vector>
 using namespace std;
@@ -12,17 +11,12 @@ using namespace std;
 #define FORr(i,e,s) for(int i = e; i >= s; i--)
 #define ALL(x) (x).begin(), (x).end()
 typedef long long ll;
-typedef pair <int, int> pii;
 
 const int MAXN = 10000+2;
+int N, M;
 
 int main(){
-	freopen("input.txt", "r", stdin);
-	// freopen("output.txt", "w", stdout);
-	
-	int N;
-	
-	scanf("%d", &N);
+	scanf("%d %d", &N, &M);
 	FOR(i, 0, N){
 		
 	}

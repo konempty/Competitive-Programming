@@ -47,18 +47,25 @@ Qualification Round
 - [경사로](./Samsung/경사로.cpp) (시뮬레이션)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
+- [연산자 끼워넣기](./Samsung/연산자_끼워넣기.cpp) (DFS & 브루트포스)
 - [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)
 - [2048 Easy](./Samsung/2048_Easy.cpp) (DFS & 회전)
+- [연구소](./Samsung/연구소.cpp) (DFS & 브루트 포스)
 - [주사위 굴리기](./Samsung/주사위_굴리기.cpp) (방향전환)
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
 
 SCPC 1차 예선
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
+- [2017/주식거래](./Samsung/주식거래.cpp) (Greedy)
 - [2018/버스 타기](./Samsung/버스_타기.cpp) (Greedy)
 - [2018/회문인 수의 합](./Samsung/회문인_수의_합.cpp) (브루트포스)
+- [2019/오르락 내리락](./Samsung/오르락_내리락.cpp)
+- [2019/공 굴리기](./Samsung/공_굴리기.cpp)
 
 SCPC 2차 예선
+- [2019/소수 수열](./Samsung/소수_수열.cpp)
+- [2019/유사도](./Samsung/유사도.cpp)
 
 SCPC 본선
 
@@ -135,6 +142,7 @@ NAVER CAMPUS HACKDAY
 - [랜선 자르기](./기본유형/랜선_자르기.cpp) (이진 탐색)
 - [1,2,3 더하기 2](./기본유형/1,2,3_더하기_2.cpp) (DFS)
 - [스타트링크](./기본유형/스타트링크.cpp) (BFS)
+- [열혈강호](./기본유형/열혈강호.cpp) (DFS & 이분매칭)
 
 그래프
 - [연결 요소의 개수](./기본유형/연결_요소의_개수.cpp) (DFS)
@@ -144,6 +152,7 @@ NAVER CAMPUS HACKDAY
 
 - [문자열 정렬](./기본유형/문자열_정렬.cpp)
 - [큰 수 A+B](./기본유형/큰_수_A+B.cpp) (큰 수 처리)
+- [흔한 제목 찾기](./기본유형/흔한_제목_찾기.cpp)
 
 구현
 - [수 이어 쓰기 2](./기본유형/수_이어_쓰기_2.cpp)
