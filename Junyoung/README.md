@@ -54,6 +54,7 @@ Qualification Round
 - [주사위 굴리기](./Samsung/주사위_굴리기.cpp) (방향전환)
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
+- [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
 
 SCPC 1차 예선
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
