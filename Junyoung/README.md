@@ -72,9 +72,10 @@ SCPC 본선
 
 ### KAKAO
 
-KAKAO BLIND RECRUITMENT 1차
-- [2018/비밀 지도](./Kakao/비밀_지도.cpp)
-- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
+KAKAO BLIND RECRUITMENT
+- [2018 1차/비밀 지도](./Kakao/비밀_지도.cpp)
+- [2018 1차/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
+- [2019/2번](./Kakao/2.cpp)
 
 KAKAO Code Festival 예선
 
