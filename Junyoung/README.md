@@ -76,6 +76,7 @@ KAKAO BLIND RECRUITMENT
 - [2018 1차/비밀 지도](./Kakao/비밀_지도.cpp)
 - [2018 1차/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
 - [2019/2번](./Kakao/2.cpp)
+- [2019/가사 검색](./Kakao/가사_검색.cpp) (문자열)
 
 KAKAO Code Festival 예선
 
