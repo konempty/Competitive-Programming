@@ -87,6 +87,12 @@ NAVER CAMPUS HACKDAY
 - [2019/task2](./Naver/task2.cpp) (이진 트리)
 - [2019/task3](./Naver/task3.cpp) (DP)
 
+### 국방 오픈소스 아카데미
+- [1. 공정한 심사](./Osam/1_공정한_심사.cpp)
+- [2. 행운권 추첨](./Osam/2_행운권_추첨.cpp)
+- [3. UI EVENT](./Osam/3_UI_EVENT.cpp)
+- [4. 흔한 제목 찾기](./Osam/4_흔한_제목_찾기.cpp)
+
 
 ### 알고리즘 기본 유형
 
