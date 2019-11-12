@@ -54,6 +54,7 @@ Qualification Round
 - [주사위 굴리기](./Samsung/주사위_굴리기.cpp) (방향전환)
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
+- [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
 
 SCPC 1차 예선
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
@@ -71,9 +72,11 @@ SCPC 본선
 
 ### KAKAO
 
-KAKAO BLIND RECRUITMENT 1차
-- [2018/비밀 지도](./Kakao/비밀_지도.cpp)
-- [2018/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
+KAKAO BLIND RECRUITMENT
+- [2018 1차/비밀 지도](./Kakao/비밀_지도.cpp)
+- [2018 1차/프렌즈4블록](./Kakao/프렌즈4블록.cpp) (시뮬레이션)
+- [2019/2번](./Kakao/2.cpp)
+- [2019/가사 검색](./Kakao/가사_검색.cpp) (문자열)
 
 KAKAO Code Festival 예선
 
@@ -83,6 +86,12 @@ NAVER CAMPUS HACKDAY
 - [2019/task1](./Naver/task1.cpp) (맵핑)
 - [2019/task2](./Naver/task2.cpp) (이진 트리)
 - [2019/task3](./Naver/task3.cpp) (DP)
+
+### 국방 오픈소스 아카데미
+- [1. 공정한 심사](./Osam/1_공정한_심사.cpp)
+- [2. 행운권 추첨](./Osam/2_행운권_추첨.cpp)
+- [3. UI EVENT](./Osam/3_UI_EVENT.cpp)
+- [4. 흔한 제목 찾기](./Osam/4_흔한_제목_찾기.cpp)
 
 
 ### 알고리즘 기본 유형

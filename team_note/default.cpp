@@ -10,6 +10,7 @@ using namespace std;
 
 #define FOR(i,s,e) for(int i = s; i < e; i++)
 #define FORr(i,e,s) for(int i = e; i >= s; i--)
+#define FORs(i,s,o) for(int i = s, e = o.size(); i < e; i++)
 #define ALL(x) (x).begin(), (x).end()
 typedef long long ll;
 typedef pair <int, int> pii;
