@@ -1,6 +1,14 @@
 ## STL Implementation
 - vector
 - string
+   - regex
+   - swap
+   - concat (performance)
+   - substr
+   - replace
+   - find
+   - compare
+   - copy
 - 
 
 ## Competition Problems
