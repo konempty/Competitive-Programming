@@ -37,6 +37,7 @@
 
 Qualification Round
 - [2016/Counting Sheep](./Google/Code_Jam/Counting_Sheep.cpp)
+- [2017/Oversized Pancake Flipper](./Google/Code_Jam/Oversized_Pancake_Flipper.cpp)
 - [2017/Tidy Numbers](./Google/Code_Jam/Tidy_Numbers.cpp) (큰 수 처리)
 - [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
 

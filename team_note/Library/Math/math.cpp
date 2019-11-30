@@ -7,7 +7,7 @@ using namespace std;
 
 typedef long long ll;
 const ll MOD = 1e9 + 7;
-const int MAX_PRIME = 10000 +2;
+const int MAX_PRIME = 1e4 +2;
 
 // find prime
 bool not_prime[MAX_PRIME];
