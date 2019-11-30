@@ -15,8 +15,10 @@ vector<int> get_num() {
 
 string get_str() {
 	// faster than getline
+string str_in() {
 	char input[MAXLEN];
-	fgets(input, MAXLEN, stdin); input[strlen(input)-1] = NULL;
+	fgets(input, MAXLEN, stdin);
+	input[strlen(input)-1] = '\0';
 	return (string)input;
 }
 
