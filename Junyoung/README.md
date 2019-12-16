@@ -37,6 +37,7 @@
 
 Qualification Round
 - [2016/Counting Sheep](./Google/Code_Jam/Counting_Sheep.cpp)
+- [2017/Oversized Pancake Flipper](./Google/Code_Jam/Oversized_Pancake_Flipper.cpp)
 - [2017/Tidy Numbers](./Google/Code_Jam/Tidy_Numbers.cpp) (큰 수 처리)
 - [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
 
@@ -45,7 +46,9 @@ Qualification Round
 
 삼성 SW 역량 테스트
 - [경사로](./Samsung/경사로.cpp) (시뮬레이션)
+- [감시](./Samsung/감시.cpp) (방향전환 & 브루트포스)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
+- [구슬 탈출 2](./Samsung/구슬_탈출_2.cpp) (방향전환 & 브루투포스 & 순서 재배치)
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
 - [연산자 끼워넣기](./Samsung/연산자_끼워넣기.cpp) (DFS & 브루트포스)
 - [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)

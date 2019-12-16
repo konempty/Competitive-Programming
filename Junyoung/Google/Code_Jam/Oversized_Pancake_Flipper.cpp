@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/14791
+// https://www.acmicpc.net/problem/14789
 
 #include <cstdio>
 #include <cstring>
@@ -16,32 +16,33 @@ typedef long long ll;
 typedef pair <int, int> pii;
 typedef priority_queue<int> pqi;
 
-const int MAXLEN = 20+2;
+const int MAXLEN = 1e3+2;
 
 string str_in() {
 	char input[MAXLEN];
-	fgets(input, MAXLEN, stdin);
-	input[strlen(input)-1] = '\0';
+	scanf("%s", input);
 	return (string)input;
 }
 
 void solve(){
-    string num = str_in();
-    int s = 0, e = 0, sz = num.size();
-    for(; e < sz-1; e++){
-        if(num[e] > num[e+1])   break;
-        if(num[e] < num[e+1])   s = e+1;
-    }
-    // tidy number
-    if(e == sz-1){
-        printf("%s\n", num.c_str());
-        return;
-    }
-    string tidy = num.substr(0, s);
-	if(num[s] > '1')  tidy.push_back(num[s]-1);
-    FOR(i, s+1, sz) tidy.push_back('9');
-	
-    printf("%s\n", tidy.c_str());
+    string cake = str_in();
+    int K;	scanf("%d", &K);
+    
+	int cnt = 0;
+	int sz = cake.size();
+	FOR(i, 0, sz-K+1){
+		if(cake[i] == '-'){
+			cnt++;
+			FOR(s, i, i+K)	cake[s] = (cake[s] == '+') ? '-' : '+';
+		}
+	}
+	FOR(i, sz-K+1, sz){
+		if(cake[i] == '-'){
+			printf("IMPOSSIBLE\n");
+			return;
+		}
+	}
+	printf("%d\n", cnt);
 }
 
 int main(){
