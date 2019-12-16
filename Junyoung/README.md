@@ -49,6 +49,7 @@ Qualification Round
 - [감시](./Samsung/감시.cpp) (방향전환 & 브루트포스)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
 - Re) [톱니바퀴](./Samsung/톱니바퀴.cpp) (덱 & 브루트포스)
+- [구슬 탈출 2](./Samsung/구슬_탈출_2.cpp) (방향전환 & 브루투포스 & 순서 재배치)
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
 - [연산자 끼워넣기](./Samsung/연산자_끼워넣기.cpp) (DFS & 브루트포스)
 - [로봇 청소기](./Samsung/로봇_청소기.cpp) (DFS & 방향전환)
