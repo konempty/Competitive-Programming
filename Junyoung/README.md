@@ -36,6 +36,7 @@
 ### Google Code Jam
 
 Qualification Round
+- [2015/Ominous Omino](./Google/Code_Jam/Ominous_Omino.cpp)
 - [2016/Counting Sheep](./Google/Code_Jam/Counting_Sheep.cpp)
 - [2017/Oversized Pancake Flipper](./Google/Code_Jam/Oversized_Pancake_Flipper.cpp)
 - [2017/Tidy Numbers](./Google/Code_Jam/Tidy_Numbers.cpp) (큰 수 처리)
