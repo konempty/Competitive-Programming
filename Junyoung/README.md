@@ -30,7 +30,6 @@
 - [2016/로봇](./ACM-ICPC/로봇.cpp) (방향전환)
 - [2017/Happy Number](./ACM-ICPC/Happy_Number.cpp) (큰 수 처리)
 
-세계 결승
 
 
 ### Google Code Jam
@@ -60,6 +59,10 @@ Qualification Round
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
 - [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
+
+삼성 SDS 알고리즘 특강 선발 테스트
+- [쿼드트리](./Samsung/쿼드트리.cpp) (DFS)
+- [일렬연결망](./Samsung/일렬연결망.cpp) (역순회)
 
 SCPC 1차 예선
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
