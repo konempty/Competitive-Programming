@@ -30,12 +30,12 @@
 - [2016/로봇](./ACM-ICPC/로봇.cpp) (방향전환)
 - [2017/Happy Number](./ACM-ICPC/Happy_Number.cpp) (큰 수 처리)
 
-세계 결승
 
 
 ### Google Code Jam
 
 Qualification Round
+- [2015/Ominous Omino](./Google/Code_Jam/Ominous_Omino.cpp)
 - [2016/Counting Sheep](./Google/Code_Jam/Counting_Sheep.cpp)
 - [2017/Oversized Pancake Flipper](./Google/Code_Jam/Oversized_Pancake_Flipper.cpp)
 - [2017/Tidy Numbers](./Google/Code_Jam/Tidy_Numbers.cpp) (큰 수 처리)
@@ -48,6 +48,7 @@ Qualification Round
 - [경사로](./Samsung/경사로.cpp) (시뮬레이션)
 - [감시](./Samsung/감시.cpp) (방향전환 & 브루트포스)
 - [퇴사](./Samsung/퇴사.cpp) (DP)
+- [톱니바퀴](./Samsung/톱니바퀴.cpp) (덱 & 브루트포스)
 - [구슬 탈출 2](./Samsung/구슬_탈출_2.cpp) (방향전환 & 브루투포스 & 순서 재배치)
 - [테트로미노](./Samsung/테트로미노.cpp) (DFS & 브루트포스)
 - [연산자 끼워넣기](./Samsung/연산자_끼워넣기.cpp) (DFS & 브루트포스)
@@ -58,6 +59,10 @@ Qualification Round
 - [시험 감독](./Samsung/시험_감독.cpp)
 - [미세먼지 안녕!](./Samsung/미세먼지_안녕.cpp)
 - [파이프 옮기기 1](./Samsung/파이프_옮기기_1.cpp) (브루트포스)
+
+삼성 SDS 알고리즘 특강 선발 테스트
+- [쿼드트리](./Samsung/쿼드트리.cpp) (DFS)
+- [일렬연결망](./Samsung/일렬연결망.cpp) (역순회)
 
 SCPC 1차 예선
 - [2017/괄호](./Samsung/괄호.cpp) (Stack)
@@ -173,6 +178,9 @@ NAVER CAMPUS HACKDAY
 
 투 포인터
 - [부분합](./기본유형/부분합.cpp) (부분합)
+
+비트 마스크
+- [중복 제거](./기본유형/중복_제거.cpp)
 
 
 최단 거리
