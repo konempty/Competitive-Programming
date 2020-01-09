@@ -28,3 +28,14 @@ vector<string> split(string in, char delim) {
 	while (getline(ss, token, delim))	out.push_back(token);
 	return out;
 }
+
+int main(){
+	// substr
+	string a = "nice_to_meet_you";
+	// nice_to_meet_you
+	string a1 = a.substr();
+	// to_meet_you
+	string a2 = a.substr(5);
+	// e_to_
+	string a3 = a.substr(3, 5);
+}
