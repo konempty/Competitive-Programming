@@ -13,8 +13,7 @@ vector<int> get_num() {
 	return out;
 }
 
-string get_str() {
-	// faster than getline
+// faster than getline
 string str_in() {
 	char input[MAXLEN];
 	fgets(input, MAXLEN, stdin);
