@@ -35,12 +35,21 @@
 ### Google Code Jam
 
 Qualification Round
-- [2015/Ominous Omino](./Google/Code_Jam/Ominous_Omino.cpp)
-- [2016/Counting Sheep](./Google/Code_Jam/Counting_Sheep.cpp)
-- [2017/Oversized Pancake Flipper](./Google/Code_Jam/Oversized_Pancake_Flipper.cpp)
-- [2017/Tidy Numbers](./Google/Code_Jam/Tidy_Numbers.cpp) (큰 수 처리)
-- [2019/Foregone Solution](./Google/Code_Jam/Foregone_Solution.cpp) (큰 수 처리)
+- [2015/Ominous Omino](./Google/Ominous_Omino.cpp)
+- [2016/Counting Sheep](./Google/Counting_Sheep.cpp)
+- [2017/Oversized Pancake Flipper](./Google/Oversized_Pancake_Flipper.cpp)
+- [2017/Tidy Numbers](./Google/Tidy_Numbers.cpp) (큰 수 처리)
+- [2019/Foregone Solution](./Google/Foregone_Solution.cpp) (큰 수 처리)
 
+Round 1A
+
+Round 1B
+
+Round 1C
+
+Round 2
+
+Round 3
 
 ### SAMSUNG
 
