@@ -100,9 +100,14 @@ KAKAO Code Festival 예선
 ### NAVER
 
 NAVER CAMPUS HACKDAY
-- [2019/task1](./Naver/task1.cpp) (맵핑)
-- [2019/task2](./Naver/task2.cpp) (이진 트리)
-- [2019/task3](./Naver/task3.cpp) (DP)
+
+- [2019/task1](./Naver/2019_task1.cpp) (맵핑)
+- [2019/task2](./Naver/2019_task2.cpp) (이진 트리)
+- [2019/task3](./Naver/2019_task3.cpp) (DP)
+
+NAVER AI Buring Day
+
+- [2020/task1](./Naver/2020_task1.cpp) (DFS & 문자열 & 해쉬)
 
 ### 국방 오픈소스 아카데미
 - [1. 공정한 심사](./Osam/1_공정한_심사.cpp)
